@@ -128,3 +128,46 @@ main{
     font-size: 1.2rem;
     margin-right: .6rem;
 }
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    margin-top: 2rem;
+}
+.card-single{
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 4px 4px 10px rgba(0,0,0, .4);
+    border-radius: 2px;
+}
+.card-flex{
+    display: grid;
+    grid-template-columns: 70% auto;
+    align-items: center;
+}
+.card-head span{
+    display: block;
+    text-transform: uppercase;
+    color: #555;
+    font-size: .9rem;
+}
+.card-head small{
+    font-weight: 600;
+    color: #555;
+}
+.card-info h2{
+    font-size: 2.2rem;
+    color: #333;
+}
+.card-chart span{
+    font-size: 5rem;
+}
+.card-chart.success span{
+    color: #2e8b57;
+}
+.card-chart.danger span{
+    color: #ff6347;
+}
+.card-chart.yellow span{
+    color: #ff4500;
+}
